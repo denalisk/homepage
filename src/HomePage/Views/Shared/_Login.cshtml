@@ -1,0 +1,13 @@
+﻿@model HomePage.ViewModels.LoginViewModel
+
+<form asp-controller="ApplicationUser" asp-action="Login">
+    <div class="form-group col-md-4">
+      <label asp-for="Username">Username</label>
+      <input asp-for="Username" class="form-control"/>
+      <br>
+      <label asp-for="Username">Password</label>
+      <input asp-for="Password" class="form-control" />
+      <br>
+      <input type="submit" class="btn btn-info" value="Login">
+    </div>
+</form>
