@@ -9,8 +9,8 @@ namespace HomePage.ViewModels
     public class RegisterViewModel
     {
         [Required]
-        [Display(Name = "Username")]
-        public string Username { get; set; }
+        [Display(Name = "UserName")]
+        public string UserName { get; set; }
 
         [Required]
         [Display(Name = "Password")]

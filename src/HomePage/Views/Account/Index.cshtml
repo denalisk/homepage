@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if(User.Identity.IsAuthenticated)
+{
+  <div class="jumbotron">
+    <h1>
+      Welcome, Authenticated User!
+    </h1>
+  </div>
+}
+else
+{
+    <h1>You Should log in</h1>
+}

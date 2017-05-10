@@ -1,11 +1,12 @@
 ﻿@model HomePage.ViewModels.LoginViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
-<form asp-controller="ApplicationUser" asp-action="Login">
+<form asp-controller="Account" asp-action="Login">
     <div class="form-group col-md-4">
-      <label asp-for="Username">Username</label>
-      <input asp-for="Username" class="form-control"/>
+      <label asp-for="UserName">UserName</label>
+      <input asp-for="UserName" class="form-control"/>
       <br>
-      <label asp-for="Username">Password</label>
+      <label asp-for="UserName">Password</label>
       <input asp-for="Password" class="form-control" />
       <br>
       <input type="submit" class="btn btn-info" value="Login">

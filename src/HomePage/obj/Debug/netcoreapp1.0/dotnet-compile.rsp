@@ -246,7 +246,11 @@
 --resource:"C:\Users\epicodus\Desktop\HomePage\src\HomePage\obj\Debug\netcoreapp1.0\HomePagedotnet-compile.deps.json",HomePage.deps.json
 C:\Users\epicodus\Desktop\HomePage\src\HomePage\Program.cs
 C:\Users\epicodus\Desktop\HomePage\src\HomePage\Startup.cs
+C:\Users\epicodus\Desktop\HomePage\src\HomePage\Controllers\AccountController.cs
 C:\Users\epicodus\Desktop\HomePage\src\HomePage\Controllers\HomeController.cs
+C:\Users\epicodus\Desktop\HomePage\src\HomePage\Migrations\20170510205608_Initial.cs
+C:\Users\epicodus\Desktop\HomePage\src\HomePage\Migrations\20170510205608_Initial.Designer.cs
+C:\Users\epicodus\Desktop\HomePage\src\HomePage\Migrations\HomePageDbContextModelSnapshot.cs
 C:\Users\epicodus\Desktop\HomePage\src\HomePage\Models\ApplicationUser.cs
 C:\Users\epicodus\Desktop\HomePage\src\HomePage\Models\HomePageDbContext.cs
 C:\Users\epicodus\Desktop\HomePage\src\HomePage\Models\Note.cs

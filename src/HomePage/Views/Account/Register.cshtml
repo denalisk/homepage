@@ -1,0 +1,27 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model HomePage.ViewModels.RegisterViewModel
+<div class="container">
+  <div class="col-md-4 offset-md-4">
+    <div class="panel panel-primary">
+      <form asp-controller="Account" asp-action="Register">
+        <div class="panel panel-heading">
+          <h1>Create an account</h1>
+        </div>
+        <div class="panel-body">
+          <div class="form-group">
+            <label asp-for="UserName">UserName</label>
+            <input asp-for="UserName" class="form-control"/>
+            <br>
+            <label asp-for="UserName">Password</label>
+            <input asp-for="Password" class="form-control" />
+            <br>
+            <input type="submit" class="btn btn-info" value="Register">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

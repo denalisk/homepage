@@ -9,8 +9,31 @@
 </head>
 <body>
     <div>
-        <h1>Layout Works</h1>
-        @RenderBody()
+        <nav class="navbar nav mynavbar">
+            <div class="nav-bar-holder">
+                <div class="top-section">
+                </div>
+                <div class="bottom-section">
+                    <div class="link-holder container">
+                        @Html.ActionLink("Home", "Index", "Home") | 
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @using (Html.BeginForm("Logoff", "Account"))
+                            {
+                                <input type="submit" value="Log Out" class="btn btn-warning" />
+                            }
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Login", "Login", "Account")
+                        }
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <div class="top-buffer"></div>
+            @RenderBody()
     </div>
 </body>
 </html>
